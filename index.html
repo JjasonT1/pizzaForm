@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jamie's Pizza Place</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h3>Jamie's Pizza Place</h3>
+
+  <!--Username, password and sign in form-->
+  <form method="get" action="#" onsubmit="return validateInfo()">
+    <table>
+        <tr>
+          <th id=""></th><td>Username:</td></th>
+          <td><input id="name" name="username" type="text" placeholder="Enter Username"></td>
+        </tr>
+
+        <tr>
+          <th><td>Password:</td></th>    
+            <td><input id="password" type="password" name="password" maxlength="7"  placeholder="Enter Password"></td>
+        </tr>
+
+        <tr>
+          <th id=""><td>Select Pizza Size:</td></th>
+          <td>
+            <select id = "sizes">
+              <option value="select size">--- Select a size ---</option>
+              <option value="large" id="largePizza">Large -------------------- &euro;5</option>
+              <option value="extra-large" id="extraLargePizza">Extra-Large ------------ &euro;7</option>
+              <option value="supersize" id="supersizePizza">Supersize -------------- &euro;17</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <th id=""><td>Select Pizza Quantity:</td></th>
+          <td><input type="text" id="quantity" name="quantity" placeholder="Enter Quantity"></td>
+        </tr>
+      
+        <tr>
+          <th id=""> <td>Discount Code:</td></th>
+          <td><input type="text" id="discount" name="discount" placeholder="extracheese"></td>
+        </tr>
+
+        <tr>
+          <td><button type="submit">Confirm</button></td>
+        </tr>
+
+    </table>
+  </form>
+
+  <div class="link">
+    <a href="total.html">Click here for total price</a>
+  </div>
+  
+      <!--<td><p>The total is: </p></td>
+      <span id = "result"></span>-->
+
+  <!--Pizza image
+  <div>
+    <img src="images/pizza.jpeg" alt="pizza_image">
+  </div>-->
+
+  <div>
+    <img src="images/pizza2.jpg" alt="pizza image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
