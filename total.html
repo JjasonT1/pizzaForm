@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Total Price of Pizza</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<!-- <div class = "total">
+    <p>Large pizza is &euro;5 with dicount code of 10% that will be a total of <span id="large">&euro;4.50</span>
+
+    <p>Extra-large pizza is &euro;7 with dicount code of 10% that will be a total of <span id="extralarge">&euro;6.30</span>
+
+    <p>Supersize pizza is &euro;17 with dicount code of 10% that will be a total of <span id="supersize">&euro;15.30</span>
+    </div> -->
+  
+  <form name = "calulateTotal" onclick="return calTotal()">
+    <table>
+      <tr>
+        <td class="no1">Pizza Price:</td>
+        <td><input type="text" name="num1" class="number1" placeholder="&euro;5 &euro;7 &euro;17" id="multi1"></td>
+      </tr>
+        <td class="no2"></td>
+        <td><input type="text" name="num2" class="number2" placeholder="Whopping 10% OFF!" id="multi2"></td>
+      </tr>
+      <tr>
+        <td class="total">Total:</td>
+        <td><input type="text" name="total" class="totalNum" id="result"></td>
+      </tr>
+
+      <tr>
+        <td><input id = "calculate" type="submit" value="Click here for total pizza price"></button></td>
+      </tr>
+    </table>
+  </form> 
+
+    <div>
+      <img src="images/pizza2.jpg" alt="pizza image">
+    </div>
+
+    <script src="totalScript.js"></script>
+</body>
+</html>
