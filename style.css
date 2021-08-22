@@ -1,0 +1,107 @@
+body {
+  margin: 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  /* background-image: url(/images/pizza2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-color: rgba(231, 229, 229, 0.884);*/
+}
+
+/*Jamie's pizza place*/
+h3 {
+  z-index: 1;
+  font-size: 4.5em;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(117, 15, 15);
+  text-decoration: underline;
+  position: relative;
+  top: 120px;
+  left: 590px;
+}
+
+/*h3:hover {
+  filter: blur(1.5px);
+}*/
+
+form {
+  font-size: 1.3em;
+  position: relative;
+  top: 130px;
+  left: 450px;
+  color: rgb(117, 15, 15);
+  font-weight: bold;
+}
+
+.number1,
+.number2,
+.totalNum {
+  position: relative;
+  left: 179px;
+  height: 14px;
+  color: rgb(117, 15, 15);
+}
+
+.no1,
+.no2,
+.total {
+  position: relative;
+  left: 255px;
+}
+
+/*User input textbox*/
+input {
+  width: 240px;
+}
+
+/*Drop down menu*/
+select {
+  width: 248px;
+}
+
+/* Confirm button*/
+button {
+  position: relative;
+  left: 431px;
+  width: 249px;
+}
+
+/* total price button*/
+#calculate {
+  position: relative;
+  left: 430px;
+  width: 245px;
+  border: 1px solid rgb(77, 122, 119);
+}
+
+img {
+  opacity: 0.4;
+  position: relative;
+  bottom: 750px;
+  right: 800px;
+  border: 8px solid rgb(121, 224, 255);
+  z-index: -1;
+}
+
+.link {
+  font-size: 1.2em;
+  padding-left: 920px;
+  padding-top: 150px;
+}
+
+.total {
+  font-size: 1.5em;
+  color: rgb(117, 15, 15);
+  font-weight: bold;
+  text-align: start;
+}
+
+/*img {
+  width: 50vw;
+  height: 90vh;
+  border-radius: 50%;
+  left: 450px; 
+}*/
